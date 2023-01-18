@@ -575,19 +575,23 @@ a.card {
 }
 @media (min-width: 40em) {
   .main-grid {
+    display: grid;
     gap: 1.5rem;
     padding-block: 2rem;
     width: min(95%, 70rem);
     margin-inline: auto;
     grid-template-columns: repeat(3, 1fr);
   }
-  .box:nth-child(3) {
+  .katalox-box:nth-child(3) {
     grid-column-start: 3;
     grid-row-start: 1;
     grid-row-end: 5;
   }
   .grid-col-span-2 {
     grid-column: span 2;
+  }
+  .grid-col-span-3 {
+    grid-column: span 3;
   }
   .katalox-img-grid {
     gap: 0.6rem;
@@ -608,5 +612,34 @@ a.card {
     grid-column-start: 3;
     grid-row-start: 3;
     grid-row-end: 5;
+  }
+  .isoft-box:first-child {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .isoft-box:nth-child(2) {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .isoft-box-img:nth-child(2) {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .isoft-box-img:nth-child(3) {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  .isoft-box-img:nth-child(4) {
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  .isoft-box-img:nth-child(5) {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
   }
 }/*# sourceMappingURL=style.css.map */
