@@ -20,6 +20,16 @@ body {
   flex-direction: column;
 }
 
+@media (min-width: 40em) {
+  .what-we-do-grid {
+    display: grid;
+    gap: 1.5rem;
+    padding-block: 2rem;
+    width: min(95%, 70rem);
+    margin-inline: auto;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 .map-responsive {
   overflow: hidden;
   padding-bottom: 56.25%;

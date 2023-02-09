@@ -5,9 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About | GSSI</title>
+  <title>About | GSSI Enterprise</title>
   <!-- CSS -->
-  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   <!-- FONT -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -51,10 +51,10 @@
             <a class="nav-link text-white" href="about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="product.html">Product</a>
+            <a class="nav-link text-white" href="product.html">Products</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="service.html">Service</a>
+            <a class="nav-link text-white" href="service.html">Services</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-white" href="project.html">Projects</a>
@@ -75,7 +75,8 @@
         <div class="col-lg-6">
           <h1 class="display-4" style="color:#145889">About Us</h1>
           <p class="lead text-muted mb-0 fw-bold">Green System Solution and Innovation</p>
-          <p class="text-muted mt-2">GSSI Enterprise (Green System Solution and Innovation) is an industrial supplier
+          <p class="text-muted mt-2">GSSI Enterprise (Green System Solution and Innovation) is an industrial supplier,
+            contractor
             and subcontractor company
             that aims to provide its customers RELIABLE, HIGH QUALITY and COST-EFFECTIVE industrial equipment and
             services
@@ -88,14 +89,48 @@
             customers that demand quality, cost efficient, and consistent aftersales services. The two
             companies facilitated in sourcing of industrial equipment, solar products, commercial and
             industrial motors, pumps and among others locally and overseas.</p>
-          <p class="text-muted mt-2">The company also extends its services in design works, cost analyses and value
+          <p class="text-muted mt-2">The company also extends its services in design works, cost analysis and value
             engineering that
             appropriately parallels customer's expectation.
             Armed with the help of design and cost-oriented engineering professionals, sales executives and
             well-trained installers and fabricators, the company strives to achieve the topmost level of
             quality supply and services in its field.</p>
         </div>
-        <div class="col-lg-6 d-none d-lg-block"><img src="img/placeholder.png" alt="img" class="rounded"></div>
+        <div class="col-lg-6 d-lg-block">
+          <!-- CAROUSEL -->
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <picture>
+                  <source srcset="img/about/about-main-1.webp" type="image/webp">
+                  <img src="img/about/about-main-1.jpg" class="d-block w-100" alt="img" style="max-height: 700px;">
+                </picture>
+              </div>
+              <div class="carousel-item">
+                <picture>
+                  <source srcset="img/about/about-main-2.webp" type="image/webp">
+                  <img src="img/about/about-main-2.jpg" class="d-block w-100" alt="img" style="max-height: 700px;">
+                </picture>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div> <!-- END CAROUSEL -->
+        </div>
       </div>
     </div>
   </div>
@@ -109,12 +144,19 @@
             and in the coming
             generations.</p>
         </div>
-        <div class="col-lg-5 px-5 mx-auto order-1 order-lg-2"><img src="img/about/vision.png" alt="img"
-            class="img-fluid mb-4 mb-lg-0 rounded"></div>
+        <div class="col-lg-5 px-5 order-1 order-lg-2">
+          <picture>
+            <source srcset="img/about/vision.webp" type="image/webp">
+            <img src="img/about/vision.png" alt="vision" class="img-fluid mb-4 mx-auto mb-lg-0 rounded">
+          </picture>
+        </div>
       </div>
       <div class="row align-items-center" data-aos="fade-up">
-        <div class="col-lg-5 px-5 mx-auto"><img src="img/about/mission.png" alt="img"
-            class="img-fluid mb-4 mb-lg-0 rounded mx-auto">
+        <div class="col-lg-5 px-5">
+          <picture>
+            <source srcset="img/about/mission.webp" type="image/webp">
+            <img src="img/about/mission.png" alt="mission" class="img-fluid mb-4 mx-auto mb-lg-0 rounded">
+          </picture>
         </div>
         <div class="col-lg-6">
           <h2 class="font-weight-light"><i class="fa fa-trophy me-2 mb-3 text-primary"></i>Mission</h2>
@@ -131,12 +173,19 @@
           <p class="font-italic text-muted mb-4">Customer first, Teamwork spirit, Embrace the
             change, Be responsible.</p>
         </div>
-        <div class="col-lg-5 px-5 mx-auto order-1 order-lg-2"><img src="img/about/value.png" alt="img"
-            class="img-fluid mb-4 mb-lg-0 rounded"></div>
+        <div class="col-lg-5 px-5 order-1 order-lg-2">
+          <picture>
+            <source srcset="img/about/value.webp" type="image/webp">
+            <img src="img/about/value.png" alt="core value" class="img-fluid mb-4 mx-auto mb-lg-0 rounded">
+          </picture>
+        </div>
       </div>
       <div class="row align-items-center" data-aos="fade-up">
-        <div class="col-lg-5 px-5 mx-auto"><img src="img/about/principle.png" alt="img"
-            class="img-fluid mb-4 mb-lg-0 rounded">
+        <div class="col-lg-5 px-5">
+          <picture>
+            <source srcset="img/about/principle.webp" type="image/webp">
+            <img src="img/about/principle.png" alt="principle" class="img-fluid mb-4 mx-auto mb-lg-0 rounded">
+          </picture>
         </div>
         <div class="col-lg-6">
           <h2 class="font-weight-light"><i class="fa fa-trophy me-2 mb-3 text-primary"></i>Operation Principle</h2>
@@ -153,12 +202,19 @@
             create
             value for clients, and bring happiness to people.</p>
         </div>
-        <div class="col-lg-5 px-5 mx-auto order-1 order-lg-2"><img src="img/about/responsibility.png" alt="img"
-            class="img-fluid mb-4 mb-lg-0 rounded"></div>
+        <div class="col-lg-5 px-5 order-1 order-lg-2">
+          <picture>
+            <source srcset="img/about/responsibility.webp" type="image/webp">
+            <img src="img/about/responsibility.png" alt="responsibility" class="img-fluid mb-4 mx-auto mb-lg-0 rounded">
+          </picture>
+        </div>
       </div>
       <div class="row align-items-center" data-aos="fade-up">
-        <div class="col-lg-5 px-5 mx-auto"><img src="img/about/spirit.png" alt="img"
-            class="img-fluid mb-4 mb-lg-0 rounded">
+        <div class="col-lg-5 px-5">
+          <picture>
+            <source srcset="img/about/spirit.webp" type="image/webp">
+            <img src="img/about/spirit.png" alt="spirit" class="img-fluid mb-4 mx-auto mb-lg-0 rounded">
+          </picture>
         </div>
         <div class="col-lg-6">
           <h2 class="font-weight-light"><i class="fa fa-trophy mb-3 me-2 text-primary"></i>Our Spirit</h2>
@@ -186,7 +242,7 @@
         <div class="col-sm-6 mb-5">
           <div class="bg-white rounded shadow-lg py-5 px-4"><img src="img/about/person-icon.png" alt="img" width="100"
               class="d-inline-block img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-            <h5 class="mb-0">Rolando Rapsing, Jr.</h5><span class="small text-uppercase text-muted">General
+            <h5 class="mb-0">RCR, Jr.</h5><span class="small text-uppercase text-muted">General
               Manager</span>
             <ul class="social mb-0 list-inline mt-3">
               <li class="list-inline-item"><a href="#" class="social-link"><ion-icon
@@ -206,6 +262,8 @@
               class="d-inline-block img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
             <h5 class="mb-0">Juvy Taduran</h5><span class="small text-uppercase text-muted">Project & Sales</span>
             <ul class="social mb-0 list-inline mt-3">
+              <li class="list-inline-item"><a href="#" class="social-link"><ion-icon
+                    name="logo-facebook"></ion-icon></a>
               <li class="list-inline-item"><a href="#" class="social-link"><ion-icon
                     name="logo-linkedin"></ion-icon></a>
               </li>
@@ -248,6 +306,24 @@
           </div>
         </div>
         <!-- End-->
+
+        <!-- Team item-->
+        <div class="col-sm-6 mb-5 mx-auto">
+          <div class="bg-white rounded shadow-lg py-5 px-4"><img src="img/about/person-icon.png" alt="img" width="100"
+              class="d-inline-block img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+            <h5 class="mb-0">Winefredo Wee</h5><span class="small text-uppercase text-muted">Project &
+              Application</span>
+            <ul class="social mb-0 list-inline mt-3">
+              <li class="list-inline-item"><a href="#" class="social-link"><ion-icon
+                    name="logo-facebook"></ion-icon></a>
+              </li>
+              <li class="list-inline-item"><a href="#" class="social-link"><ion-icon
+                    name="logo-linkedin"></ion-icon></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- End-->
       </div>
     </div>
   </div>
@@ -264,8 +340,8 @@
           <ul class="list-inline">
             <li class="list-inline-item"><a href="index.html">Home</a></li>
             <li class="list-inline-item"><a href="about.html">About</a></li>
-            <li class="list-inline-item"><a href="product.html">Product</a></li>
-            <li class="list-inline-item"><a href="service.html">Service</a></li>
+            <li class="list-inline-item"><a href="product.html">Products</a></li>
+            <li class="list-inline-item"><a href="service.html">Services</a></li>
             <li class="list-inline-item"><a href="project.html">Projects</a></li>
             <li class="list-inline-item"><a href="contact.html">Contact</a></li>
           </ul>

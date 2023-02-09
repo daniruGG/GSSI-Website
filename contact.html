@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact | GSSI</title>
+    <title>Contact | GSSI Enterprise</title>
     <!-- CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <!-- FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -49,10 +49,10 @@
                         <a class="nav-link text-white" href="about.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="product.html">Product</a>
+                        <a class="nav-link text-white" href="product.html">Products</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="service.html">Service</a>
+                        <a class="nav-link text-white" href="service.html">Services</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="project.html">Projects</a>
@@ -72,24 +72,25 @@
                 <h1 style="color:#145889">Contact Us</h1>
                 <p>Got questions? We'd love to hear from you.<strong> If you have any questions</strong>, please
                     fill up
-                    the form below or you can reach us through email or phone and we'll get back to as soon as possible.
+                    the form below or you can reach us through email or phone and we'll get back to you as soon as
+                    possible.
                 </p>
             </div>
         </div>
         <div class="row">
             <div class="col-sm">
-                <form action="https://formsubmit.co/taduran.daniel17@gmail.com" method="POST" target="_blank">
+                <form action="send-email.php" method="POST">
                     <div class="form-group">
                         <!-- Name input -->
                         <div class="mb-3">
                             <label class="form-label">Name</label>
-                            <input class="form-control" name="name" type="text" placeholder="Name" required />
+                            <input class="form-control" name="name" id="name" type="text" placeholder="Name" required />
                         </div>
 
                         <!-- Email address input -->
                         <div class="mb-3">
                             <label class="form-label">Email Address</label>
-                            <input class="form-control" name="email" type="email" placeholder="Email Address"
+                            <input class="form-control" name="email" id="email" type="email" placeholder="Email Address"
                                 required />
                         </div>
                     </div>
@@ -100,7 +101,7 @@
                             style="height: 10rem;" required></textarea>
                     </div>
 
-                    <input type="hidden" name="_subject" value="New Inquiry">
+                    <input type="hidden" name="subject" id="subject" value="New Inquiry From GSSI Website">
 
                     <!-- Form submit button -->
                     <div class="d-grid">
@@ -141,8 +142,8 @@
                     <ul class="list-inline">
                         <li class="list-inline-item"><a href="index.html">Home</a></li>
                         <li class="list-inline-item"><a href="about.html">About</a></li>
-                        <li class="list-inline-item"><a href="product.html">Product</a></li>
-                        <li class="list-inline-item"><a href="service.html">Service</a></li>
+                        <li class="list-inline-item"><a href="product.html">Products</a></li>
+                        <li class="list-inline-item"><a href="service.html">Services</a></li>
                         <li class="list-inline-item"><a href="project.html">Projects</a></li>
                         <li class="list-inline-item"><a href="contact.html">Contact</a></li>
                     </ul>
