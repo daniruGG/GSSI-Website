@@ -79,7 +79,7 @@
         </div>
         <div class="row">
             <div class="col-sm">
-                <form action="send-email.php" method="POST">
+                <form action="send-email.php" method="POST" id="form">
                     <div class="form-group">
                         <!-- Name input -->
                         <div class="mb-3">
@@ -105,7 +105,9 @@
 
                     <!-- Form submit button -->
                     <div class="d-grid">
-                        <button class="btn btn-primary btn-md" type="submit">Submit</button>
+                        <button class="btn btn-primary btn-md g-recaptcha" type="submit"
+                            data-sitekey="6Lenh2YkAAAAAKUa5PchLN0ZKVc2msC28_uMEhlB" data-callback="onSubmit"
+                            data-action="submit">Submit</button>
                     </div>
                 </form>
             </div>
@@ -187,7 +189,13 @@
     <!-- ION ICONS -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+    <!-- GOOGLE CAPTCHA V3 -->
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script>
+        function onSubmit(token) {
+            document.getElementById("form").submit();
+        }
+    </script>
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <script src="js/bootstrap.js"></script>
 </body>
