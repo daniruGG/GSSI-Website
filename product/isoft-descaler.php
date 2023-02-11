@@ -23,46 +23,8 @@
 
 <body>
     <!-- Navbar  -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3 bg-dark">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col">
-                    <a href="../index.html"><img src="../img/logo2.png" alt="img" style="width: 35px;"></a>
-                </div>
-                <div class="col p-0 m-0">
-                    <a class="navbar-brand" href="../index.html">GSSI</a>
-                </div>
-            </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <div class="mx-auto"></div>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="../index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="../about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="../product.html">Products</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="../service.html">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="../project.html">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="../contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav> <!-- END NAVBAR -->
+    <?php include_once("products-nav.php"); ?>
+    <!-- END NAVBAR -->
 
     <img src="img/isoft-descaler.PNG" class="w-100 mt-5 pt-2">
 
@@ -91,8 +53,7 @@
             <img src="img/isoft-descaler4.PNG" alt="img" class="gallery-item isoft-box-img h-100" role="button">
             <img src="img/isoft-descaler5.png" alt="img" class="isoft-box-img h-100">
             <!-- Modal -->
-            <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
+            <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered modal-lg">
                     <div class="modal-content">
                         <img src="#" class="modal-img" alt="modal img" style="width:100%">
@@ -110,8 +71,7 @@
             </h3>
         </div>
         <ul class="d-grid" style="grid-column: span 3;">
-            <li class="lead"><i>No <span class="text-danger">Phosphates</span> or <span
-                        class="text-danger">Phosphonates</span></i></li>
+            <li class="lead"><i>No <span class="text-danger">Phosphates</span> or <span class="text-danger">Phosphonates</span></i></li>
             <li class="lead"><i>Disinfect the system from microbial growth</i></li>
             <li class="lead"><i>100% <span class="text-success">Biodegradable</span> formulation</i></li>
             <li class="lead"><i>Prevents bio-film development</i></li>

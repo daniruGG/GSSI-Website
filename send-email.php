@@ -17,7 +17,7 @@ $mail = new PHPMailer(true);
 $mail->isSMTP();
 $mail->SMTPAuth = true;
 
-$mail->Host = "your smtp service";
+$mail->Host = "smtp-relay.sendinblue.com";
 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 $mail->Port = 587;
 
@@ -32,8 +32,6 @@ $mail->Body = $message;
 
 $mail->send();
 
-echo 
-"<script>
-    alert('Message sent');
-    window.location.href='contact.html';
-</script>";
+session_start();
+$_SESSION['status'] = "Thank you! We'll get back to you soon.";
+header('location: contact.php');
