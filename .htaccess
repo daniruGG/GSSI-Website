@@ -1,4 +1,9 @@
+RewriteRule ^send-email.php$ - [L]
 RewriteEngine on
+
+RewriteCond %{THE_REQUEST} index\.php
+RewriteRule ^index\.php$ https://www.gssienterprise.com/ [R=301,L]
+
 RewriteCond %{THE_REQUEST} /([^.]+)\.php [NC]
 RewriteRule ^ /%1 [NC,L,R]
 
