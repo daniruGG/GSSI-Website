@@ -6,23 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects | GSSI Enterprise</title>
-    <!-- CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/variables.css">
-    <!-- FONT -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <!-- FONT AWESOME -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <!--FADE LIBRARY - AOS -->
-    <link rel="stylesheet" href="aos-by-red.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <!-- FOOTER ICONS-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    <!-- LOGO IMG FOR TITLE BAR -->
-    <link rel="icon" type="images/icon" href="img/logo2.png">
+    <!--MAIN HEAD -->
+    <?php include_once("includes/head.php") ?>
 
 </head>
 
@@ -407,12 +392,12 @@
 
     <div class="text-center py-4">
         <div class="custom-pagination">
-            <a href="project2.php" class="prev">Previous</a>
-            <a href="project.php">1</a>
-            <a href="project2.php">2</a>
-            <a href="project3.php" class="active">3</a>
-            <a href="project4.php">4</a>
-            <a href="project4.php">Next</a>
+            <a href="projects-2.php" class="prev">Previous</a>
+            <a href="projects.php">1</a>
+            <a href="projects-2.php">2</a>
+            <a href="projects-3.php" class="active">3</a>
+            <a href="projects-4.php">4</a>
+            <a href="projects-4.php">Next</a>
         </div>
     </div>
 

@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Solar Pump | GSSI Enterprise</title>
+    <title>Filtersorb SP3 | GSSI Enterprise</title>
     <!-- CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
     <!-- FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <!-- FONT AWESOME -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- FOOTER ICONS-->
@@ -26,43 +26,52 @@
     <?php include_once("products-nav.php"); ?>
     <!-- END NAVBAR -->
 
-    <!-- Wrapper container -->
-    <div class="container pb-5" style="padding-top:6rem">
-        <div class="row">
-            <div class="col my-auto">
-                <img src="img/solar-pump.png" class="gallery-item img-thumbnail" alt="img" style="cursor: pointer; min-width: 350px;">
-                <!-- Modal -->
-                <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered modal-lg">
-                        <div class="modal-content">
-                            <img src="img/solar-pump.png" class="modal-img" alt="modal img" style="width:100%">
-                        </div>
+    <img src="img/filtersorb.jpg" class="w-100 mt-5 pt-2">
+    <div class="main-grid my-2">
+        <div class="filtersorb-box mx-2">
+            <h1 class="text-info">Advantages</h1>
+            <ul class="ps-5">
+                <li class="mb-2"><b>No salt</b> required</li>
+                <li class="mb-2"><b>No backwashing</b> required</li>
+                <li class="mb-2"><b>No regeneration</b> cycle required</li>
+                <li class="mb-2"><b></b>No increase in sodium content in water</li>
+                <li class="mb-2">Removes the previous scales of plumbing</li>
+                <li class="mb-2">Catalytic process converts <b>Ca</b> and <b>Mg</b> into harmless micro crystals</li>
+                <li class="mb-2"><b>Maintenance free.</b><br />No extra cost incurred.</li>
+                <li class="mb-2"><b>No chemicals</b> required for disinfection</li>
+                <li class="mb-2"><b>No electrical connections required</b></li>
+                <li class="mb-2">No drain connections required</li>
+                <li class="mb-2">No control valves required</li>
+                <li class="mb-2">Very easy to install</li>
+                <li class="mb-2">Great savings against conventional salt based water softeners</li>
+                <li class="mb-2">Provide the best quality healthy water without the addition of Sodium or Phosphates</li>
+            </ul>
+        </div>
+        <div class="filtersorb-box mx-2">
+            <h1 class="text-info">Green Technology!</h1>
+            <img src="img/filtersorb1.jpg" alt="img" class="gallery-item filtersorb-img" role="button">
+            <!-- Modal -->
+            <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <img src="#" class="modal-img" alt="modal img" style="width:100%">
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <h1 class="mb-3">Solar Pump</h1>
-                <p class="lead"><u>Highlights</u> </p>
-                <ul>
-                    <li class="lead my-2">First and biggest manufacturing of solar pumps in China</li>
-                    <li class="lead my-2">Energy-saving and environment-protected green products</li>
-                    <li class="lead my-2">Advanced 3 phase DC brushless motor</li>
-                    <li class="lead my-2">MPPT and DSP technology for the controller</li>
-                    <li class="lead my-2">Cost saving product, no need of any electricity or fuel</li>
-                    <li class="lead my-2">Portable and foldable</li>
-                    <li class="lead my-2">Fast and simple to install the complete system</li>
-                    <li class="lead my-2">Maintenance-free and long working life</li>
-                    <li class="lead my-2">Rechargeable batteries for night use</li>
-                    <li class="lead my-2">Patented products</li>
-                    <li class="lead my-2">CE certificate</li>
-                    <li class="lead my-2">3 years warranty for the solar pumps</li>
-                </ul>
-            </div>
+            <h1 class="text-info">Features</h1>
+            <ul class="ps-4">
+                <li class="mb-2">3 - 5 years of media life</li>
+                <li class="mb-2">Nucleation Assisted Crystallization (NAC)</li>
+                <li class="mb-2">Best Quality Drinking Water</li>
+            </ul>
         </div>
-    </div>
+        <div class="filtersorb-box mx-2">
+            <img src="img/filtersorb2.jpg" alt="img" class="gallery-item filtersorb-img" role="button">
+        </div>
 
-    <div class="mb-5 pb-3 text-center">
-        <a href="../product.php" role="button" class="btn btn-secondary">Go back to products</a>
+        <div class="container my-2">
+            <a class="btn btn-primary" href="../PDFs/Filtersorb-SP3-brochure.pdf">Download Full Brochure</a>
+        </div>
     </div>
 
     <!-- FOOTER -->
@@ -74,12 +83,12 @@
                 </div>
                 <div class="col-sm mt-5">
                     <ul class="list-inline">
-                        <li class="list-inline-item"><a href="../index.php">Home</a></li>
-                        <li class="list-inline-item"><a href="../about.php">About</a></li>
-                        <li class="list-inline-item"><a href="../product.php">Products</a></li>
-                        <li class="list-inline-item"><a href="../service.php">Services</a></li>
-                        <li class="list-inline-item"><a href="../project.php">Projects</a></li>
-                        <li class="list-inline-item"><a href="../contact.php">Contact</a></li>
+                        <li class="list-inline-item"><a href="../index.html">Home</a></li>
+                        <li class="list-inline-item"><a href="../about.html">About</a></li>
+                        <li class="list-inline-item"><a href="../product.html">Products</a></li>
+                        <li class="list-inline-item"><a href="../service.html">Services</a></li>
+                        <li class="list-inline-item"><a href="../project.html">Projects</a></li>
+                        <li class="list-inline-item"><a href="../contact.html">Contact</a></li>
                     </ul>
                     <div class="social">
                         <a href="https://www.facebook.com/profile.php?id=100064865100649" target="_blank">
@@ -118,14 +127,13 @@
         </footer>
     </div> <!-- END FOOTER -->
 
+
     <!-- ION ICONS -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <!-- FONT AWESOME -->
+
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    <!-- BOOTSTRAP -->
     <script src="../js/bootstrap.js"></script>
-    <!-- MAIN JS -->
     <script src="../js/main.js"></script>
 </body>
 

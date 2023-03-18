@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oil Sludge Treatment System | GSSI Enterprise</title>
+    <title>Vertical Oil Separator | GSSI Enterprise</title>
     <!-- CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
@@ -30,28 +30,44 @@
     <div class="container pb-5" style="padding-top:6rem">
         <div class="row">
             <div class="col my-auto">
-                <img src="img/oil-sludge-treatment-system.png" class="gallery-item img-thumbnail" alt="img" style="cursor: pointer; min-width: 350px;">
+                <img src="img/vertical-oil-separator.png" class="gallery-item img-thumbnail" alt="img" style="cursor: pointer; min-width: 350px;">
                 <!-- Modal -->
                 <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered modal-lg">
                         <div class="modal-content">
-                            <img src="img/oil-sludge-treatment-system.png" class="modal-img" alt="modal img" style="width:100%">
+                            <img src="img/vertical-oil-separator.png" class="modal-img" alt="modal img" style="width:100%">
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col">
-                <h1 class="mb-3">OIL SLUDGE TREATMENT SYSTEM</h1>
-                <p class="lead">The OSTS (Oil Sludge Treatment System) is a customized wastewater treatment plant where
-                    very high concentration of FOGs are to be removed
+                <h1 class="mb-3">VERTICAL OIL SEPARATOR</h1>
+                <p class="lead"><u>DESIGN AND BUILD</u> WASTEWATER TREATMENT</p>
+                <p class="lead">The VOS is designed to replace conventional belt skimmers and coalescing plate
+                    separators and offers high separation performance with minimal water content in the recovered oils
+                </p>
+                <h3 class="mb-3">LIQUI-SKIM FLOATING SKIMMER</h3>
+                <img src="img/liqui-skim.png" class="gallery-item img-thumbnail" alt="img" style="cursor: pointer; min-width: 350px;">
+                <!-- Modal -->
+                <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <img src="img/liqui-skim.png" class="modal-img" alt="modal img" style="width:100%">
+                        </div>
+                    </div>
+                </div>
+                <p class="lead mt-4">The Liqui-Skim is used together with FOG Separator or the Micro Air
+                    Bubble-Dissolved Air
+                    Floatation in the processing and treatment of wastewater
                 </p>
             </div>
         </div>
     </div>
 
     <div class="mb-5 pb-3 text-center">
-        <a href="../product.php" role="button" class="btn btn-secondary">Go back to products</a>
+        <a href="../products.php" role="button" class="btn btn-secondary">Go back to products</a>
     </div>
+
     <!-- FOOTER -->
     <div class="footer-basic">
         <footer>

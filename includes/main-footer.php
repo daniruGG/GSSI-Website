@@ -8,9 +8,9 @@
           <ul class="list-inline">
             <li class="list-inline-item"><a href="index.php">Home</a></li>
             <li class="list-inline-item"><a href="about.php">About</a></li>
-            <li class="list-inline-item"><a href="product.php">Products</a></li>
+            <li class="list-inline-item"><a href="products.php">Products</a></li>
             <li class="list-inline-item"><a href="service.php">Services</a></li>
-            <li class="list-inline-item"><a href="project.php">Projects</a></li>
+            <li class="list-inline-item"><a href="projects.php">Projects</a></li>
             <li class="list-inline-item"><a href="contact.php">Contact</a></li>
           </ul>
           <div class="social">

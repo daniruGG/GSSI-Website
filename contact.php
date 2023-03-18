@@ -6,19 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact | GSSI Enterprise</title>
-    <!-- CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <!-- FONT -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <!-- FOOTER ICONS-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    <!-- LOGO IMG FOR TITLE BAR -->
-    <link rel="icon" type="images/icon" href="img/logo2.png">
-    <!-- FONT AWESOME -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!--MAIN HEAD -->
+    <?php include_once("includes/head.php") ?>
 
 </head>
 
@@ -93,7 +82,7 @@
             </div>
             <div class="col-sm">
                 <div class="map-responsive">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d7723.929467697581!2d121.11654992633687!3d14.544009444405226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3397c654226aae51%3A0x77b82451b71d51e2!2sBlock%2017%2C%20Taytay%2C%201920%20Rizal!3m2!1d14.543999099999999!2d121.12092729999999!5e0!3m2!1sen!2sph!4v1672756748680!5m2!1sen!2sph" style="border:0;" allowfullscreen="" loading="lazy" tabindex="0" aria-hidden="false" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d482.72789317840204!2d121.11334402313203!3d14.552103972591505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c7ad7ebd3c8b%3A0x910223ac36b48f9f!2sArmal%20Village%20Neighborhood%20Association%20Inc.!5e0!3m2!1sen!2sph!4v1677237638222!5m2!1sen!2sph" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>

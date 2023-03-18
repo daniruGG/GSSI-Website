@@ -6,23 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects | GSSI Enterprise</title>
-    <!-- CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/variables.css">
-    <!-- FONT -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <!-- FONT AWESOME -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <!--FADE LIBRARY - AOS -->
-    <link rel="stylesheet" href="aos-by-red.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <!-- FOOTER ICONS-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    <!-- LOGO IMG FOR TITLE BAR -->
-    <link rel="icon" type="images/icon" href="img/logo2.png">
+    <!--MAIN HEAD -->
+    <?php include_once("includes/head.php") ?>
 </head>
 
 <body>
@@ -42,26 +27,24 @@
                     <div class="col-sm" data-aos="fade-up">
                         <!-- START 1ST PROJECT -->
                         <div class="d-md-flex post-entry-2 half">
-                            <a class="me-4 thumbnail" role="button" data-bs-toggle="modal" data-bs-target="#fill-clean">
+                            <a class="me-4 thumbnail" role="button" data-bs-toggle="modal" data-bs-target="#st-paul">
                                 <picture>
-                                    <source srcset="img/projects/fill-clean-technology1.webp" type="image/webp">
-                                    <img src="img/projects/fill-clean-technology1.jpg" alt="fill clean technology" class="d-block w-100" style="width: 640px; height: 360px;">
+                                    <source srcset="img/projects/saint-paul-hospital2.webp" type="image/webp">
+                                    <img src="img/projects/saint-paul-hospital2.jpg" alt="saint paul hospital" class="d-block w-100" style="width: 640px; height: 360px;">
                                 </picture>
                             </a>
                             <div class="d-flex flex-column justify-content-between w-100">
                                 <div>
                                     <h3>
-                                        <a class="text-primary text-decoration-none" role="button" data-bs-toggle="modal" data-bs-target="#fill-clean">
-                                            FILL CLEAN TECHNOLOGY
+                                        <a class="text-primary text-decoration-none" role="button" data-bs-toggle="modal" data-bs-target="#st-paul">
+                                            ST. PAUL HOSPITAL, INC.
                                         </a>
                                     </h3>
-                                    <p class="lead">Our Role: <strong class="fw-bold">Parañaque City</strong></p>
-                                    <p class="lead">Our Role: <strong class="fw-bold">Subcontractor</strong></p>
+                                    <p class="lead">Location: <strong class="fw-bold">Bocaue, Bulacan</strong></p>
+                                    <p class="lead">Our Role: <strong class="fw-bold">Main Contractor</strong></p>
                                     <p class="lead m-0">What we did:</p>
                                     <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">RENOVATION OF OFFICE</li>
-                                        <li class="list-group-item">RENOVATION OF STOCK ROOM</li>
-                                        <li class="list-group-item">RENOVATION OF STAFF ROOM</li>
+                                        <li class="list-group-item">STP SYSTEM UPGRADE</li>
                                         <li class="list-group-item"></li>
                                     </ul>
                                 </div>
@@ -75,48 +58,40 @@
                                 </div>
                             </div>
                             <!-- Modal -->
-                            <div class="modal modal-lg fade" id="fill-clean" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal modal-lg fade" id="st-paul" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
                                         <div class="modal-header flex-column align-items-start">
-                                            <h5 class="modal-title fw-bold text-primary" id="exampleModalLabel">FILL
-                                                CLEAN TECHNOLOGY
-                                            </h5>
-                                            <p class="lead text-muted m-0">2019</p>
+                                            <h5 class="modal-title fw-bold text-primary" id="exampleModalLabel">ST. PAUL
+                                                HOSPITAL, INC.</h5>
+                                            <p class="lead text-muted m-0">2022</p>
                                         </div>
                                         <div class="modal-body">
                                             <!-- CAROUSEL -->
-                                            <div id="fill-clean-captions" class="carousel slide mb-2 " data-bs-ride="false">
+                                            <div id="st-paul-captions" class="carousel slide mb-2 " data-bs-ride="false">
                                                 <div class="carousel-indicators">
-                                                    <button type="button" data-bs-target="#fill-clean-captions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                                    <button type="button" data-bs-target="#fill-clean-captions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                                    <button type="button" data-bs-target="#fill-clean-captions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                                    <button type="button" data-bs-target="#st-paul-captions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                                    <button type="button" data-bs-target="#st-paul-captions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                                                 </div>
                                                 <div class="carousel-inner">
                                                     <div class="carousel-item active">
                                                         <picture>
-                                                            <source srcset="img/projects/fill-clean-technology1.webp" type="image/webp">
-                                                            <img src="img/projects/fill-clean-technology1.jpg" class="d-block w-100" alt="fill clean technology" style="max-height: 450px; height: 450px;">
+                                                            <source srcset="img/projects/saint-paul-hospital2.webp" type="image/webp">
+                                                            <img src="img/projects/saint-paul-hospital2.jpg" class="d-block w-100" alt="img" style="max-height: 450px; height: 450px;">
                                                         </picture>
                                                     </div>
                                                     <div class="carousel-item">
                                                         <picture>
-                                                            <source srcset="img/projects/fill-clean-technology2.webp" type="image/webp">
-                                                            <img src="img/projects/fill-clean-technology2.jpg" class="d-block w-100" alt="fill clean technology" style="max-height: 450px; height: 450px;">
-                                                        </picture>
-                                                    </div>
-                                                    <div class="carousel-item">
-                                                        <picture>
-                                                            <source srcset="img/projects/fill-clean-technology3.webp" type="image/webp">
-                                                            <img src="img/projects/fill-clean-technology3.jpg" class="d-block w-100" alt="fill clean technology" style="max-height: 450px; height: 450px;">
+                                                            <source srcset="img/projects/saint-paul-hospital1.webp" type="image/webp">
+                                                            <img src="img/projects/saint-paul-hospital1.jpg" class="d-block w-100" alt="img" style="max-height: 450px; height: 450px;">
                                                         </picture>
                                                     </div>
                                                 </div>
-                                                <button class="carousel-control-prev" type="button" data-bs-target="#fill-clean-captions" data-bs-slide="prev">
+                                                <button class="carousel-control-prev" type="button" data-bs-target="#st-paul-captions" data-bs-slide="prev">
                                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                                     <span class="visually-hidden">Previous</span>
                                                 </button>
-                                                <button class="carousel-control-next" type="button" data-bs-target="#fill-clean-captions" data-bs-slide="next">
+                                                <button class="carousel-control-next" type="button" data-bs-target="#st-paul-captions" data-bs-slide="next">
                                                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                                     <span class="visually-hidden">Next</span>
                                                 </button>
@@ -124,16 +99,14 @@
                                         </div>
                                         <div class="modal-footer flex-column align-items-start">
                                             <div>
-                                                <p class="lead">Location: <strong class="fw-bold">Parañaque
-                                                        City</strong></p>
+                                                <p class="lead">Location: <strong class="fw-bold">Bocaue,
+                                                        Bulacan</strong></p>
 
                                                 <p class="lead">Our Role: <strong class="fw-bold">Main
                                                         Contractor</strong></p>
                                                 <p class="lead m-0">What we did:</p>
                                                 <ul class="list-group list-group-flush">
-                                                    <li class="list-group-item">RENOVATION OF OFFICE</li>
-                                                    <li class="list-group-item">RENOVATION OF STOCK ROOM</li>
-                                                    <li class="list-group-item">RENOVATION OF STAFF ROOM</li>
+                                                    <li class="list-group-item">STP SYSTEM UPGRADE</li>
                                                     <li class="list-group-item"></li>
                                                 </ul>
                                             </div>
@@ -145,28 +118,31 @@
                             </div>
                         </div> <!-- END 1ST PROJECT -->
 
-                        <!-- START 2ND PROJECT -->
+                        <!-- START 2ST PROJECT -->
                         <div class="d-md-flex post-entry-2 half">
-                            <a class="me-4 thumbnail" role="button" data-bs-toggle="modal" data-bs-target="#morning-after-resto">
+                            <a class="me-4 thumbnail" role="button" data-bs-toggle="modal" data-bs-target="#new-coast-hotel-manila">
                                 <picture>
-                                    <source srcset="img/projects/the-morning-after-resto1.webp" type="image/webp">
-                                    <img src="img/projects/the-morning-after-resto1.jpg" alt="the morning after resto" class="d-block w-100" style="width: 640px; height: 360px;">
+                                    <source srcset="img/projects/new-coast-hotel-manila5.webp" type="image/webp">
+                                    <img src="img/projects/new-coast-hotel-manila5.jpg" class="d-block w-100" alt="new coast hotel manila" style="width: 640px; height: 360px;">
                                 </picture>
                             </a>
                             <div class="d-flex flex-column justify-content-between w-100">
                                 <div>
                                     <h3>
-                                        <a class="text-primary text-decoration-none" role="button" data-bs-toggle="modal" data-bs-target="#morning-after-resto">
-                                            THE MORNING AFTER RESTO
+                                        <a class="text-primary text-decoration-none" role="button" data-bs-toggle="modal" data-bs-target="#new-coast-hotel-manila">
+                                            NEW COAST HOTEL MANILA
+                                            <small class="text-primary-emphasis">(FORMERLY NEW WORLD MANILA BAY
+                                                HOTEL)</small>
                                         </a>
                                     </h3>
-                                    <p class="lead">Location: <strong class="fw-bold">Sta. Rosa, Laguna</strong></p>
-                                    <p class="lead">Our Role: <strong class="fw-bold">Subcontractor</strong></p>
+                                    <p class="lead">Location: <strong class="fw-bold">Malate, Manila</strong></p>
+                                    <p class="lead">Our Role: <strong class="fw-bold">Main
+                                            Contractor</strong></p>
                                     <p class="lead m-0">What we did:</p>
                                     <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">RENOVATION OF REST ROOM</li>
-                                        <li class="list-group-item">RENOVATION OF BAR COUNTER</li>
-                                        <li class="list-group-item">RENOVATION OF KITCHEN</li>
+                                        <li class="list-group-item">STP OPERATIONS & MAINTENANCE</li>
+                                        <li class="list-group-item">REPAIR AND REHAB RING MOTOR AIR BLOWER FOR JACUZZI
+                                        </li>
                                         <li class="list-group-item"></li>
                                     </ul>
                                 </div>
@@ -180,48 +156,64 @@
                                 </div>
                             </div>
                             <!-- Modal -->
-                            <div class="modal modal-lg fade" id="morning-after-resto" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal modal-lg fade" id="new-coast-hotel-manila" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
                                         <div class="modal-header flex-column align-items-start">
-                                            <h5 class="modal-title fw-bold text-primary" id="exampleModalLabel">THE
-                                                MORNING AFTER RESTO
+                                            <h5 class="modal-title fw-bold text-primary" id="exampleModalLabel">NEW
+                                                COAST HOTEL MANILA
+                                                <small class="text-primary-emphasis">(FORMERLY NEW WORLD MANILA BAY
+                                                    HOTEL)</small>
                                             </h5>
-                                            <p class="lead text-muted m-0">2019</p>
+                                            <p class="lead text-muted m-0">2017/2021</p>
                                         </div>
                                         <div class="modal-body">
                                             <!-- CAROUSEL -->
-                                            <div id="morning-after-resto-captions" class="carousel slide mb-2 " data-bs-ride="false">
+                                            <div id="new-coast-hotel-manila-captions" class="carousel slide mb-2 " data-bs-ride="false">
                                                 <div class="carousel-indicators">
-                                                    <button type="button" data-bs-target="#morning-after-resto-captions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                                    <button type="button" data-bs-target="#morning-after-resto-captions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                                    <button type="button" data-bs-target="#morning-after-resto-captions" data-bs-slide-to="2" aria-label="Slide 2"></button>
+                                                    <button type="button" data-bs-target="#new-coast-hotel-manila-captions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                                    <button type="button" data-bs-target="#new-coast-hotel-manila-captions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                                    <button type="button" data-bs-target="#new-coast-hotel-manila-captions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                                    <button type="button" data-bs-target="#new-coast-hotel-manila-captions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                                    <button type="button" data-bs-target="#new-coast-hotel-manila-captions" data-bs-slide-to="4" aria-label="Slide 5"></button>
                                                 </div>
                                                 <div class="carousel-inner">
                                                     <div class="carousel-item active">
                                                         <picture>
-                                                            <source srcset="img/projects/the-morning-after-resto1.webp" type="image/webp">
-                                                            <img src="img/projects/the-morning-after-resto1.jpg" alt="the morning after resto" class="d-block w-100" style="max-height: 450px; height: 450px;">
+                                                            <source srcset="img/projects/new-coast-hotel-manila5.webp" type="image/webp">
+                                                            <img src="img/projects/new-coast-hotel-manila5.jpg" class="d-block w-100" alt="img" style="max-height: 450px; height: 450px;">
                                                         </picture>
                                                     </div>
                                                     <div class="carousel-item">
                                                         <picture>
-                                                            <source srcset="img/projects/the-morning-after-resto2.webp" type="image/webp">
-                                                            <img src="img/projects/the-morning-after-resto2.jpg" alt="the morning after resto" class="d-block w-100" style="max-height: 450px; height: 450px;">
+                                                            <source srcset="img/projects/new-coast-hotel-manila1.webp" type="image/webp">
+                                                            <img src="img/projects/new-coast-hotel-manila1.jpg" class="d-block w-100" alt="img" style="max-height: 450px; height: 450px;">
                                                         </picture>
                                                     </div>
                                                     <div class="carousel-item">
                                                         <picture>
-                                                            <source srcset="img/projects/the-morning-after-resto3.webp" type="image/webp">
-                                                            <img src="img/projects/the-morning-after-resto3.jpg" alt="the morning after resto" class="d-block w-100" style="max-height: 450px; height: 450px;">
+                                                            <source srcset="img/projects/new-coast-hotel-manila4.webp" type="image/webp">
+                                                            <img src="img/projects/new-coast-hotel-manila4.jpg" class="d-block w-100" alt="img" style="max-height: 450px; height: 450px;">
+                                                        </picture>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <picture>
+                                                            <source srcset="img/projects/new-coast-hotel-manila3.webp" type="image/webp">
+                                                            <img src="img/projects/new-coast-hotel-manila3.jpg" class="d-block w-100" alt="img" style="max-height: 450px; height: 450px;">
+                                                        </picture>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <picture>
+                                                            <source srcset="img/projects/new-coast-hotel-manila2.webp" type="image/webp">
+                                                            <img src="img/projects/new-coast-hotel-manila2.jpg" class="d-block w-100" alt="img" style="max-height: 450px; height: 450px;">
                                                         </picture>
                                                     </div>
                                                 </div>
-                                                <button class="carousel-control-prev" type="button" data-bs-target="#morning-after-resto-captions" data-bs-slide="prev">
+                                                <button class="carousel-control-prev" type="button" data-bs-target="#new-coast-hotel-manila-captions" data-bs-slide="prev">
                                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                                     <span class="visually-hidden">Previous</span>
                                                 </button>
-                                                <button class="carousel-control-next" type="button" data-bs-target="#morning-after-resto-captions" data-bs-slide="next">
+                                                <button class="carousel-control-next" type="button" data-bs-target="#new-coast-hotel-manila-captions" data-bs-slide="next">
                                                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                                     <span class="visually-hidden">Next</span>
                                                 </button>
@@ -229,15 +221,15 @@
                                         </div>
                                         <div class="modal-footer flex-column align-items-start">
                                             <div>
-                                                <p class="lead">Location: <strong class="fw-bold">Sta. Rosa,
-                                                        Laguna</strong></p>
+                                                <p class="lead">Location: <strong class="fw-bold">Malate,
+                                                        Manila</strong></p>
                                                 <p class="lead">Our Role: <strong class="fw-bold">Main
                                                         Contractor</strong></p>
                                                 <p class="lead m-0">What we did:</p>
                                                 <ul class="list-group list-group-flush">
-                                                    <li class="list-group-item">RENOVATION OF REST ROOM</li>
-                                                    <li class="list-group-item">RENOVATION OF BAR COUNTER</li>
-                                                    <li class="list-group-item">RENOVATION OF KITCHEN</li>
+                                                    <li class="list-group-item">STP OPERATIONS & MAINTENANCE</li>
+                                                    <li class="list-group-item">REPAIR AND REHAB RING MOTOR AIR BLOWER
+                                                        FOR JACUZZI</li>
                                                     <li class="list-group-item"></li>
                                                 </ul>
                                             </div>
@@ -250,28 +242,26 @@
 
                         <!-- START 3RD PROJECT -->
                         <div class="d-md-flex post-entry-2 half">
-                            <a class="me-4 thumbnail" role="button" data-bs-toggle="modal" data-bs-target="#telco-fiber">
+                            <a class="me-4 thumbnail" role="button" data-bs-toggle="modal" data-bs-target="#linocraft-printers">
                                 <picture>
-                                    <source srcset="img/projects/telco-fiber-rehab1.webp" type="image/webp">
-                                    <img src="img/projects/telco-fiber-rehab1.jpg" alt="telco fiber" class="d-block w-100" style="width: 640px; height: 360px;">
+                                    <source srcset="img/projects/linocraft-printers-ph1.webp" type="image/webp">
+                                    <img src="img/projects/linocraft-printers-ph1.jpg" class="d-block w-100" alt="linocraft printers philippines" style="width: 640px; height: 360px;">
                                 </picture>
                             </a>
                             <div class="d-flex flex-column justify-content-between w-100">
                                 <div>
                                     <h3>
-                                        <a class="text-primary text-decoration-none" role="button" data-bs-toggle="modal" data-bs-target="#telco-fiber">TELCO FIBER REHAB, POLE
-                                            RECOVERY AND
-                                            POLE ERECTION
+                                        <a class="text-primary text-decoration-none" role="button" data-bs-toggle="modal" data-bs-target="#linocraft-printers">
+                                            LINOCRAFT PRINTERS PHILIPPINES
                                         </a>
                                     </h3>
-                                    <p class="lead">Location: <strong class="fw-bold">Amadeo, Cavite</strong></p>
+                                    <p class="lead">Location: <strong class="fw-bold">Sto. Tomas, Batangas</strong></p>
+
                                     <p class="lead">Our Role: <strong class="fw-bold">Subcontractor</strong></p>
                                     <p class="lead m-0">What we did:</p>
                                     <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">COPPER CABLES DETACHING</li>
-                                        <li class="list-group-item">POLE RECOVERY</li>
-                                        <li class="list-group-item">POLE ERECTION</li>
-                                        <li class="list-group-item">INSTALLATION OF 10-PIN</li>
+                                        <li class="list-group-item">CONSTRUCTION OF OFFICE</li>
+                                        <li class="list-group-item">STRUCTURAL & WELDING WORKS</li>
                                         <li class="list-group-item"></li>
                                     </ul>
                                 </div>
@@ -285,41 +275,47 @@
                                 </div>
                             </div>
                             <!-- Modal -->
-                            <div class="modal modal-lg fade" id="telco-fiber" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal modal-lg fade" id="linocraft-printers" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
                                         <div class="modal-header flex-column align-items-start">
-                                            <h5 class="modal-title fw-bold text-primary" id="exampleModalLabel">TELCO
-                                                FIBER REHAB, POLE RECOVERY AND
-                                                POLE ERECTION</h5>
-                                            <p class="lead text-muted m-0">2021</p>
+                                            <h5 class="modal-title fw-bold text-primary" id="exampleModalLabel">
+                                                LINOCRAFT PRINTERS PHILIPPINES</h5>
+                                            <p class="lead text-muted m-0">2018</p>
                                         </div>
                                         <div class="modal-body">
                                             <!-- CAROUSEL -->
-                                            <div id="telco-fiber-captions" class="carousel slide mb-2 " data-bs-ride="false">
+                                            <div id="linocraft-printers-captions" class="carousel slide mb-2 " data-bs-ride="false">
                                                 <div class="carousel-indicators">
-                                                    <button type="button" data-bs-target="#telco-fiber-captions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                                    <button type="button" data-bs-target="#telco-fiber-captions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                                    <button type="button" data-bs-target="#linocraft-printers-captions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                                    <button type="button" data-bs-target="#linocraft-printers-captions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                                    <button type="button" data-bs-target="#linocraft-printers-captions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                                                 </div>
                                                 <div class="carousel-inner">
                                                     <div class="carousel-item active">
                                                         <picture>
-                                                            <source srcset="img/projects/telco-fiber-rehab1.webp" type="image/webp">
-                                                            <img src="img/projects/telco-fiber-rehab1.jpg" class="d-block w-100" alt="fill clean technology" style="max-height: 450px; height: 450px;">
+                                                            <source srcset="img/projects/linocraft-printers-ph1.webp" type="image/webp">
+                                                            <img src="img/projects/linocraft-printers-ph1.jpg" class="d-block w-100" alt="linocraft printers philippines" style="max-height: 450px; height: 450px;">
                                                         </picture>
                                                     </div>
                                                     <div class="carousel-item">
                                                         <picture>
-                                                            <source srcset="img/projects/telco-fiber-rehab2.webp" type="image/webp">
-                                                            <img src="img/projects/telco-fiber-rehab2.jpg" class="d-block w-100" alt="fill clean technology" style="max-height: 450px; height: 450px;">
+                                                            <source srcset="img/projects/linocraft-printers-ph2.webp" type="image/webp">
+                                                            <img src="img/projects/linocraft-printers-ph2.jpg" class="d-block w-100" alt="linocraft printers philippines" style="max-height: 450px; height: 450px;">
+                                                        </picture>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <picture>
+                                                            <source srcset="img/projects/linocraft-printers-ph3.webp" type="image/webp">
+                                                            <img src="img/projects/linocraft-printers-ph3.jpg" class="d-block w-100" alt="linocraft printers philippines" style="max-height: 450px; height: 450px;">
                                                         </picture>
                                                     </div>
                                                 </div>
-                                                <button class="carousel-control-prev" type="button" data-bs-target="#telco-fiber-captions" data-bs-slide="prev">
+                                                <button class="carousel-control-prev" type="button" data-bs-target="#linocraft-printers-captions" data-bs-slide="prev">
                                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                                     <span class="visually-hidden">Previous</span>
                                                 </button>
-                                                <button class="carousel-control-next" type="button" data-bs-target="#telco-fiber-captions" data-bs-slide="next">
+                                                <button class="carousel-control-next" type="button" data-bs-target="#linocraft-printers-captions" data-bs-slide="next">
                                                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                                     <span class="visually-hidden">Next</span>
                                                 </button>
@@ -327,19 +323,18 @@
                                         </div>
                                         <div class="modal-footer flex-column align-items-start">
                                             <div>
-                                                <p class="lead">Location: <strong class="fw-bold">Amadeo,
-                                                        Cavite</strong></p>
+                                                <p class="lead">Location: <strong class="fw-bold">Sto. Tomas,
+                                                        Batangas</strong></p>
                                                 <p class="lead">Our Role: <strong class="fw-bold">Subcontractor</strong>
                                                 </p>
                                                 <p class="lead m-0">What we did:</p>
                                                 <ul class="list-group list-group-flush">
-                                                    <li class="list-group-item">COPPER CABLES DETACHING</li>
-                                                    <li class="list-group-item">POLE RECOVERY</li>
-                                                    <li class="list-group-item">POLE ERECTION</li>
-                                                    <li class="list-group-item">INSTALLATION OF 10-PIN</li>
+                                                    <li class="list-group-item">CONSTRUCTION OF OFFICE</li>
+                                                    <li class="list-group-item">STRUCTURAL & WELDING WORKS</li>
                                                     <li class="list-group-item"></li>
                                                 </ul>
                                             </div>
+
                                             <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
                                         </div>
                                     </div>
@@ -354,12 +349,12 @@
 
     <div class="text-center py-4">
         <div class="custom-pagination">
-            <a href="project.php" class="prev">Previous</a>
-            <a href="project.php">1</a>
-            <a href="project2.php" class="active">2</a>
-            <a href="project3.php">3</a>
-            <a href="project4.php">4</a>
-            <a href="project3.php" class="next">Next</a>
+            <a href="#" class="prev page-link disabled text-secondary" tabindex="-1">Previous</a>
+            <a href="projects.php" class="active">1</a>
+            <a href="projects-2.php">2</a>
+            <a href="projects-3.php">3</a>
+            <a href="projects-4.php">4</a>
+            <a href="projects-2.php" class="next">Next</a>
         </div>
     </div>
 

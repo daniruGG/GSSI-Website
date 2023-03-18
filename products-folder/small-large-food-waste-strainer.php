@@ -29,43 +29,36 @@
     <!-- Wrapper container -->
     <div class="container pb-5" style="padding-top:6rem">
         <div class="row">
-            <div class="col my-auto">
-                <img src="img/vertical-oil-separator.png" class="gallery-item img-thumbnail" alt="img" style="cursor: pointer; min-width: 350px;">
-                <!-- Modal -->
-                <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered modal-lg">
-                        <div class="modal-content">
-                            <img src="img/vertical-oil-separator.png" class="modal-img" alt="modal img" style="width:100%">
+            <div class="col">
+                <div class="d-flex">
+                    <img src="img/small-food-waste-strainer.png" class="gallery-item img-thumbnail mx-auto" alt="img" style="cursor: pointer; min-width: 150px;">
+                    <img src="img/large-food-waste-strainer.png" class="gallery-item img-thumbnail mx-auto" alt="img" style="cursor: pointer; min-width: 150px;">
+                    <!-- Modal -->
+                    <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg">
+                            <div class="modal-content">
+                                <img src="img/small-food-waste-strainer.png" class="modal-img" alt="modal img" style="width:100%">
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="d-flex">
+                    <p class="mx-auto">Small Under Sink Drawer</p>
+                    <p class="mx-auto">Large Under Sink Drawer</p>
+                </div>
+
             </div>
             <div class="col">
-                <h1 class="mb-3">VERTICAL OIL SEPARATOR</h1>
+                <h1 class="mb-3">Small/Large Food Waste Strainer</h1>
                 <p class="lead"><u>DESIGN AND BUILD</u> WASTEWATER TREATMENT</p>
-                <p class="lead">The VOS is designed to replace conventional belt skimmers and coalescing plate
-                    separators and offers high separation performance with minimal water content in the recovered oils
-                </p>
-                <h3 class="mb-3">LIQUI-SKIM FLOATING SKIMMER</h3>
-                <img src="img/liqui-skim.png" class="gallery-item img-thumbnail" alt="img" style="cursor: pointer; min-width: 350px;">
-                <!-- Modal -->
-                <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered modal-lg">
-                        <div class="modal-content">
-                            <img src="img/liqui-skim.png" class="modal-img" alt="modal img" style="width:100%">
-                        </div>
-                    </div>
-                </div>
-                <p class="lead mt-4">The Liqui-Skim is used together with FOG Separator or the Micro Air
-                    Bubble-Dissolved Air
-                    Floatation in the processing and treatment of wastewater
-                </p>
+                <p class="lead">FWS removes waste food solids & separates fats, oil & grease before kitchen wastewater
+                    discharges into output drain with low surface aerator</p>
             </div>
         </div>
     </div>
 
     <div class="mb-5 pb-3 text-center">
-        <a href="../product.php" role="button" class="btn btn-secondary">Go back to products</a>
+        <a href="../products.php" role="button" class="btn btn-secondary">Go back to products</a>
     </div>
 
     <!-- FOOTER -->

@@ -6,22 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GSSI Enterprise</title>
-    <!-- CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <!-- FONT -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <!-- FONT AWESOME -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <!-- FOOTER ICONS-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    <!-- LOGO IMG FOR TITLE BAR -->
-    <link rel="icon" type="images/icon" href="img/logo2.png">
-    <!-- SEO -->
-    <meta name="description" content="GSSI Enterprise (Green System Solution and Innovation) is an industrial supplier, contractor and subcontractor company that aims to provide its customers RELIABLE, HIGH QUALITY and COST-EFFECTIVE industrial equipment and services in the field of PLUMBING & SANITARY, SEWAGE TREATMENT FACILITY, FIRE DETECTION ALARM AND SUPPRESSION, ELECTRICAL and MECHANICAL SYSTEM.">
-    <meta name="keywords" content="GSSI, GSSI Enterprise, GSSI Taytay Rizal, Green System Solution and Innovation, Wastewater Management, Sewage Treatment Plant and Potable Water Facility">
+    <!--MAIN HEAD -->
+    <?php include_once("includes/head.php") ?>
+    <!-- BING SEO -->
+    <meta name="msvalidate.01" content="49336B49C627FD244C545BD2F092720B" />
 </head>
 
 <body>
@@ -116,7 +104,7 @@
                     technology, we make our environment Clean & Green.</p>
             </div>
             <div class="what-we-do-box">
-                <img src="img/what-we-do-2.png" alt="img" class="w-100 rounded mx-auto mt-2 gallery-item" role="button" style="max-height: 20rem;">
+                <img src="img/what-we-do-2.jpg" alt="img" class="w-100 rounded mx-auto mt-2 gallery-item" role="button" style="max-height: 20rem;">
             </div>
 
         </div>

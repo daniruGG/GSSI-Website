@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Electrocoagulation Wastewater Treatment Solution | GSSI Enterprise</title>
+    <title>Solar Power Generator | GSSI Enterprise</title>
     <!-- CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
@@ -28,37 +28,45 @@
 
     <!-- Wrapper container -->
     <div class="container pb-5" style="padding-top:6rem">
+        <h1 class="mb-3 text-center">Solar Power Generator</h1>
         <div class="row">
-            <div class="col my-auto">
-                <img src="img/electrocoagulation.png" class="gallery-item img-thumbnail" alt="img" style="cursor: pointer; min-width: 350px;">
+            <div class="col-sm m-auto mb-4">
+                <img src="img/solar-power-generator.png" class="gallery-item img-thumbnail" alt="img" style="cursor: pointer;">
                 <!-- Modal -->
                 <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered modal-lg">
                         <div class="modal-content">
-                            <img src="img/electrocoagulation.png" class="modal-img" alt="modal img" style="width:100%">
+                            <img src="img/solar-power-generator.png" class="modal-img" alt="modal img" style="width:100%">
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <h1 class="mb-3">Electrocoagulation Wastewater Treatment Solution</h1>
-                <p class="lead">The Electrical Coagulation Machines are used where there are high levels of
-                    contamination. It helps reduce the need for high concentrations of chemicals to perform coagulation
-                    requirements
-                </p>
-                <ul>
-                    <li class="lead my-2">Chemical Free Technology</li>
-                    <li class="lead my-2">Optimum Total Dissolved Solids (TDS) Removal</li>
-                    <li class="lead my-2">Low-Sludge Production & Larger Flocs</li>
-                    <li class="lead my-2">Clear, Odorless Water Produced</li>
-                    <li class="lead my-2">Low Maintenance</li>
-                </ul>
+            <div class="col-sm m-auto mb-4">
+                <img src="img/solar-power-generator2.png" class="gallery-item img-thumbnail" alt="img" style="cursor: pointer;">
             </div>
         </div>
+        <div class="row">
+            <div class="col-sm m-auto mb-4">
+                <img src="img/solar-power-generator3.png" class="gallery-item img-thumbnail" alt="img" style="cursor: pointer; min-width: 350px;">
+            </div>
+
+            <div class="col-sm m-auto mb-4">
+                <img src="img/solar-power-generator4.png" class="gallery-item img-thumbnail" alt="img" style="cursor: pointer; min-width: 350px;">
+            </div>
+        </div>
+
+        <div class="row m-auto mb-4">
+            <div class="col-sm">
+                <img src="img/solar-power-generator5.png" class="gallery-item img-thumbnail mx-auto" alt="img" style="cursor: pointer; min-width: 310px;">
+            </div>
+        </div>
+
     </div>
+
     <div class="mb-5 pb-3 text-center">
-        <a href="../product.php" role="button" class="btn btn-secondary">Go back to products</a>
+        <a href="../products.php" role="button" class="btn btn-secondary">Go back to products</a>
     </div>
+
     <!-- FOOTER -->
     <div class="footer-basic">
         <footer>

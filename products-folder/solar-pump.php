@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Packaged Type Fire Pump System | GSSI Enterprise</title>
+    <title>Solar Pump | GSSI Enterprise</title>
     <!-- CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
@@ -30,94 +30,39 @@
     <div class="container pb-5" style="padding-top:6rem">
         <div class="row">
             <div class="col my-auto">
-                <img src="img/packaged-type-fire-pump-system.png" class="gallery-item img-thumbnail" alt="img" style="cursor: pointer; min-width: 350px;">
+                <img src="img/solar-pump.png" class="gallery-item img-thumbnail" alt="img" style="cursor: pointer; min-width: 350px;">
                 <!-- Modal -->
                 <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered modal-lg">
                         <div class="modal-content">
-                            <img src="img/packaged-type-fire-pump-system.png" class="modal-img" alt="modal img" style="width:100%">
+                            <img src="img/solar-pump.png" class="modal-img" alt="modal img" style="width:100%">
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col">
-                <h1 class="mb-3">Packaged Type Fire Pump System</h1>
-                <p class="lead"><u>FIRE-PUMP-SYSTEM</u> COMPACT PACKAGED TYPE</p>
-                <p class="lead"><u>FEATURES</u> </p>
+                <h1 class="mb-3">Solar Pump</h1>
+                <p class="lead"><u>Highlights</u> </p>
                 <ul>
-                    <li class="lead my-2">Space Saving Design</li>
-                    <li class="lead my-2">Plug & Play Setup</li>
-                    <li class="lead my-2">Easy Maintenance</li>
-                    <li class="lead my-2">50% Savings on Equipment & Installation</li>
-                    <li class="lead my-2">Inclusive Steel Base & Pipe Trimmings, Test Connection, Pump Connection,
-                        Valves & Accessories</li>
-
+                    <li class="lead my-2">First and biggest manufacturing of solar pumps in China</li>
+                    <li class="lead my-2">Energy-saving and environment-protected green products</li>
+                    <li class="lead my-2">Advanced 3 phase DC brushless motor</li>
+                    <li class="lead my-2">MPPT and DSP technology for the controller</li>
+                    <li class="lead my-2">Cost saving product, no need of any electricity or fuel</li>
+                    <li class="lead my-2">Portable and foldable</li>
+                    <li class="lead my-2">Fast and simple to install the complete system</li>
+                    <li class="lead my-2">Maintenance-free and long working life</li>
+                    <li class="lead my-2">Rechargeable batteries for night use</li>
+                    <li class="lead my-2">Patented products</li>
+                    <li class="lead my-2">CE certificate</li>
+                    <li class="lead my-2">3 years warranty for the solar pumps</li>
                 </ul>
-                <p class="lead"><u>CAPACITY</u> </p>
-                <ul>
-                    <li class="lead my-2">0-500GPM/0.75HP</li>
-
-
-                </ul>
-
-                <p class="lead"><u>DIMENSIONS</u> </p>
-                <ul>
-                    <li class="lead my-2">L-1200mm W- 900mm H- 1500mm</li>
-
-
-                </ul>
-
-                <h1 class="mb-3">AUSTRALIAN PUMP TECHNOLOGY</h1>
-                <div class="row row-cols-4">
-                    <div class="col bg-secondary text-white text-center border border-dark">
-                        Model
-                    </div>
-                    <div class="col bg-secondary text-white text-center border border-dark">
-                        Fire Pump
-                    </div>
-                    <div class="col bg-secondary text-white text-center border border-dark">
-                        jockey Plump
-                    </div>
-                    <div class="col bg-secondary text-white text-center border border-dark">
-                        System Pressure
-                    </div>
-                </div>
-
-                <div class="row row-cols-4">
-                    <div class="col text-dark text-center border border-dark lead">
-                        PYRO 300
-                    </div>
-                    <div class="col text-dark text-center border border-dark text-break">
-                        300gpm/25hp max
-                    </div>
-                    <div class=" col text-dark text-center border border-dark text-break">
-                        500gpm/75hp max
-                    </div>
-                    <div class="col text-dark text-center border border-dark text-break">
-                        0-150psi
-                    </div>
-                </div>
-
-                <div class="row row-cols-4">
-                    <div class="col text-dark text-center border border-dark lead">
-                        PYRO 500
-                    </div>
-                    <div class="col text-dark text-center border border-dark text-break">
-                        40gpm/5hp max
-                    </div>
-                    <div class="col text-dark text-center border border-dark text-break">
-                        100gpm/7.5hp max
-                    </div>
-                    <div class="col text-dark text-center border border-dark text-break">
-                        0-150psi
-                    </div>
-                </div>
             </div>
         </div>
     </div>
 
     <div class="mb-5 pb-3 text-center">
-        <a href="../product.php" role="button" class="btn btn-secondary">Go back to products</a>
+        <a href="../products.php" role="button" class="btn btn-secondary">Go back to products</a>
     </div>
 
     <!-- FOOTER -->

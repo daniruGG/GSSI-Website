@@ -56,7 +56,7 @@
     </div>
 
     <div class="mb-5 pb-3 text-center">
-        <a href="../product.php" role="button" class="btn btn-secondary">Go back to products</a>
+        <a href="../products.php" role="button" class="btn btn-secondary">Go back to products</a>
     </div>
 
     <!-- FOOTER -->
