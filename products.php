@@ -40,7 +40,7 @@
                 <a href="products-folder/isoft-descaler.php" role="button" class="text-uppercase btn btn-link">isoft
                     descaler</a>
             </div>
-            <!-- ISOFT DESCALER -->
+            <!-- FILTERSORB-SP3 -->
             <div class="col-6 col-md-4 text-center my-4">
                 <a href="products-folder/filtersorb-sp3.php">
                     <img src="products-folder/img/filtersorb1.jpg" alt="img" class="mx-auto" style="max-height: 200px;">
