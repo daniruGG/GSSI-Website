@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,7 +9,8 @@
     <title>Contact | GSSI Enterprise</title>
     <!--MAIN HEAD -->
     <?php include_once("includes/head.php") ?>
-
+    <!-- Google ReCaptcha V3 -->
+    <script src="https://www.google.com/recaptcha/api.js?render=site key here"></script>
 </head>
 
 <body>
@@ -28,7 +30,7 @@
             </div>
         </div>
         <?php
-        session_start();
+        // An alert will popup after clicking submit
         if (isset($_SESSION['status'])) {
         ?>
             <div class="alert alert-success alert-dismissible fade show" role="alert">
@@ -65,7 +67,18 @@
 
                     <!-- Form submit button -->
                     <div class="d-grid">
-                        <button class="btn btn-primary btn-md g-recaptcha" type="submit" data-sitekey="6Lenh2YkAAAAAKUa5PchLN0ZKVc2msC28_uMEhlB" data-callback="onSubmit" data-action="submit">Submit</button>
+                        <?php
+                        if (isset($_POST['submit'])) {
+                            $url = "https://www.google.com/recaptcha/api/siteverify";
+                            $secret = "site key here";
+                            $response = $_POST['token_generate'];
+                            $remoteip = $_SERVER['REMOTE_ADDR'];
+                            $request = file_get_contents($url . '?secret=' . $secret . '&response=' . $response);
+                            $result = json_decode($request);
+                        }
+                        ?>
+                        <input type="hidden" name="token_generate" id="token_generate">
+                        <button class="btn btn-primary btn-md g-recaptcha" name="submit" type="submit">Submit</button>
                     </div>
                 </form>
             </div>
@@ -95,15 +108,22 @@
     <!-- ION ICONS -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <!-- GOOGLE CAPTCHA V3 -->
-    <script src="https://www.google.com/recaptcha/api.js"></script>
-    <script>
-        function onSubmit(token) {
-            document.getElementById("form").submit();
-        }
-    </script>
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <script src="js/bootstrap.js"></script>
+    <!-- Google ReCaptcha V3 -->
+    <script>
+        function onClick(e) {
+            e.preventDefault();
+            grecaptcha.ready(function() {
+                grecaptcha.execute('server side secret key here', {
+                    action: 'submit'
+                }).then(function(token) {
+                    var response = getElementById("token_generate");
+                    response.value = token;
+                });
+            });
+        }
+    </script>
 </body>
 
 </html>
