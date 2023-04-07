@@ -25,49 +25,49 @@
         <div class="row">
             <!-- KATALOX LIGHT -->
             <div class="col-6 col-md-4 text-center my-4">
-                <a href="products-folder/katalox-light.php">
-                    <img src="products-folder/img/katalox-light4.PNG" alt="img" class="mx-auto" style="max-height: 200px;">
+                <a href="products/katalox-light.php">
+                    <img src="products/img/katalox-light4.PNG" alt="img" class="mx-auto" style="max-height: 200px;">
                 </a>
-                <a href="products-folder/katalox-light.php" role="button" class="text-uppercase btn btn-link">katalox
+                <a href="products/katalox-light.php" role="button" class="text-uppercase btn btn-link">katalox
                     light
                 </a>
             </div>
             <!-- ISOFT DESCALER -->
             <div class="col-6 col-md-4 text-center my-4">
-                <a href="products-folder/isoft-descaler.php">
-                    <img src="products-folder/img/isoft-descaler2.PNG" alt="img" class="mx-auto" style="max-height: 200px;">
+                <a href="products/isoft-descaler.php">
+                    <img src="products/img/isoft-descaler2.PNG" alt="img" class="mx-auto" style="max-height: 200px;">
                 </a>
-                <a href="products-folder/isoft-descaler.php" role="button" class="text-uppercase btn btn-link">isoft
+                <a href="products/isoft-descaler.php" role="button" class="text-uppercase btn btn-link">isoft
                     descaler</a>
             </div>
             <!-- FILTERSORB-SP3 -->
             <div class="col-6 col-md-4 text-center my-4">
-                <a href="products-folder/filtersorb-sp3.php">
-                    <img src="products-folder/img/filtersorb1.jpg" alt="img" class="mx-auto" style="max-height: 200px;">
+                <a href="products/filtersorb-sp3.php">
+                    <img src="products/img/filtersorb1.jpg" alt="img" class="mx-auto" style="max-height: 200px;">
                 </a>
-                <a href="products-folder/filtersorb-sp3.php" role="button" class="text-uppercase btn btn-link">filtersorb-sp3</a>
+                <a href="products/filtersorb-sp3.php" role="button" class="text-uppercase btn btn-link">filtersorb-sp3</a>
             </div>
             <!-- OIL SLUDGE TREATMENT SYSTEM -->
             <div class="col-6 col-md-4 text-center my-4">
-                <a href="products-folder/oil-sludge-treatment-system.php">
-                    <img src="products-folder/img/oil-sludge-treatment-system.png" alt="img" class="mx-auto" style="max-height: 200px;">
+                <a href="products/oil-sludge-treatment-system.php">
+                    <img src="products/img/oil-sludge-treatment-system.png" alt="img" class="mx-auto" style="max-height: 200px;">
                 </a>
-                <a href="products-folder/oil-sludge-treatment-system.php" role="button" class="text-uppercase btn btn-link">oil
+                <a href="products/oil-sludge-treatment-system.php" role="button" class="text-uppercase btn btn-link">oil
                     sludge treatment system</a>
             </div>
             <!-- SMALL/LARGE FOOD WASTE STRAINER -->
             <div class="col-6 col-md-4 text-center my-4">
-                <a href="products-folder/small-large-food-waste-strainer.php" class="d-flex">
-                    <img src="products-folder/img/small-food-waste-strainer.png" alt="img" class="mx-auto" style="max-height: 200px;">
+                <a href="products/small-large-food-waste-strainer.php" class="d-flex">
+                    <img src="products/img/small-food-waste-strainer.png" alt="img" class="mx-auto" style="max-height: 200px;">
                 </a>
-                <a href="products-folder/small-large-food-waste-strainer.php" role="button" class="text-uppercase btn btn-link">small/large food waste strainer</a>
+                <a href="products/small-large-food-waste-strainer.php" role="button" class="text-uppercase btn btn-link">small/large food waste strainer</a>
             </div>
             <!-- PACKAGED TYPE FIRE PUMP SYSTEM -->
             <div class="col-6 col-md-4 text-center my-4">
-                <a href="products-folder/packaged-type-fire-pump-system.php">
-                    <img src="products-folder/img/packaged-type-fire-pump-system.png" alt="img" class="mx-auto" style="max-height: 200px;">
+                <a href="products/packaged-type-fire-pump-system.php">
+                    <img src="products/img/packaged-type-fire-pump-system.png" alt="img" class="mx-auto" style="max-height: 200px;">
                 </a>
-                <a href="products-folder/packaged-type-fire-pump-system.php" role="button" class="text-uppercase btn btn-link">packaged type fire pump system</a>
+                <a href="products/packaged-type-fire-pump-system.php" role="button" class="text-uppercase btn btn-link">packaged type fire pump system</a>
             </div>
         </div>
 

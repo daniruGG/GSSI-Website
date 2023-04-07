@@ -25,39 +25,39 @@
         <div class="row">
             <!-- ELECTROCOAGULATION WASTE WATER TREATMENT SOLUTION -->
             <div class="col-6 col-md-4 text-center my-4">
-                <a href="products-folder/electrocoagulation.php">
-                    <img src="products-folder/img/electrocoagulation.png" alt="img" class="mx-auto" style="max-height: 200px;">
+                <a href="products/electrocoagulation.php">
+                    <img src="products/img/electrocoagulation.png" alt="img" class="mx-auto" style="max-height: 200px;">
                 </a>
-                <a href="products-folder/electrocoagulation.php" role="button" class="text-uppercase btn btn-link">electrocoagulation wastewater treatment solution
+                <a href="products/electrocoagulation.php" role="button" class="text-uppercase btn btn-link">electrocoagulation wastewater treatment solution
                 </a>
             </div>
             <!-- STP-ELCOM -->
             <div class="col-6 col-md-4 text-center my-4">
-                <a href="products-folder/stp-elcom.php">
-                    <img src="products-folder/img/stp-elcom.png" alt="img" class="mx-auto" style="max-height: 200px;">
+                <a href="products/stp-elcom.php">
+                    <img src="products/img/stp-elcom.png" alt="img" class="mx-auto" style="max-height: 200px;">
                 </a>
-                <a href="products-folder/stp-elcom.php" role="button" class="text-uppercase btn btn-link">stp-elcom</a>
+                <a href="products/stp-elcom.php" role="button" class="text-uppercase btn btn-link">stp-elcom</a>
             </div>
             <!-- DUCTING AND ACCESSORIES -->
             <div class="col-6 col-md-4 text-center my-4">
-                <a href="products-folder/ducting-and-accessories.php">
-                    <img src="products-folder/img/ducting-and-accessories.png" alt="img" class="mx-auto" style="max-height: 200px;">
+                <a href="products/ducting-and-accessories.php">
+                    <img src="products/img/ducting-and-accessories.png" alt="img" class="mx-auto" style="max-height: 200px;">
                 </a>
-                <a href="products-folder/ducting-and-accessories.php" role="button" class="text-uppercase btn btn-link">ducting
+                <a href="products/ducting-and-accessories.php" role="button" class="text-uppercase btn btn-link">ducting
                     and accessories
                 </a>
             </div>
             <!-- SOLAR POWER GENERATOR -->
             <div class="col-6 col-md-4 text-center my-4">
-                <a href="products-folder/solar-power-generator.php">
-                    <img src="products-folder/img/solar-power-generator.png" alt="img" class="mx-auto" style="max-height: 200px;">
+                <a href="products/solar-power-generator.php">
+                    <img src="products/img/solar-power-generator.png" alt="img" class="mx-auto" style="max-height: 200px;">
                 </a>
-                <a href="products-folder/solar-power-generator.php" role="button" class="text-uppercase btn btn-link">solar
+                <a href="products/solar-power-generator.php" role="button" class="text-uppercase btn btn-link">solar
                     power generator</a>
             </div>
             <!-- SOLAR PUMP -->
             <div class="col-6 col-md-4 text-center my-4">
-                <a href="products-folder/solar-pump.php">
+                <a href="products/solar-pump.php">
                     <img src="products-folder/img/solar-pump.png" alt="img" class="mx-auto" style="max-height: 200px;">
                 </a>
                 <a href="products-folder/solar-pump.php" role="button" class="text-uppercase btn btn-link">solar pump</a>
