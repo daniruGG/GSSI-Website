@@ -1,3 +1,4 @@
+RewriteRule ^submit.php$ - [L]
 RewriteRule ^send-email.php$ - [L]
 RewriteEngine on
 

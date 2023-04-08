@@ -1,9 +1,10 @@
 <?php
+session_start();
 
-$name = $_POST["name"];
-$email = $_POST["email"];
-$subject = $_POST["subject"];
-$message = $_POST["message"];
+$name = $_SESSION["name"];
+$email = $_SESSION["email"];
+$subject = $_SESSION["subject"];
+$message = $_SESSION["message"];
 
 require "vendor/autoload.php";
 
@@ -21,17 +22,15 @@ $mail->Host = "smtp-relay.sendinblue.com";
 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 $mail->Port = 587;
 
-$mail->Username = "your email";
-$mail->Password = "your pw";
+$mail->Username = "your_email";
+$mail->Password = "your_pw";
 
 $mail->setFrom($email, $name);
-$mail->addAddress("your email", "GSSI Enterprise");
+$mail->addAddress("your_email", "GSSI Enterprise");
 
 $mail->Subject = $subject;
 $mail->Body = $message;
 
 $mail->send();
 
-session_start();
-$_SESSION['status'] = "Thank you! We'll get back to you soon.";
 header('location: contact.php');

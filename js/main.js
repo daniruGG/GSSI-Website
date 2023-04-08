@@ -7,4 +7,3 @@
    	  myModal.show();
    }
  })
-

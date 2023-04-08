@@ -83,7 +83,7 @@
                 </div>
             </div>
             <div class=" what-we-do-box d-flex align-items-center mb-2">
-                <p> <strong>GSSI ENTERPRISE</strong> is committed to helping the small company that needs a solution in
+                <p> <strong>GSSI ENTERPRISE</strong> is committed to helping the small company that needs solution in
                     wastewater
                     management, sewage treatment plant and potable water facility by combining both
                     conventional

@@ -1,4 +1,5 @@
 <?php session_start(); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,8 +10,7 @@
     <title>Contact | GSSI Enterprise</title>
     <!--MAIN HEAD -->
     <?php include_once("includes/head.php") ?>
-    <!-- Google ReCaptcha V3 -->
-    <script src="https://www.google.com/recaptcha/api.js?render=site key here"></script>
+
 </head>
 
 <body>
@@ -31,19 +31,30 @@
         </div>
         <?php
         // An alert will popup after clicking submit
-        if (isset($_SESSION['status'])) {
+        if (isset($_SESSION['sent'])) {
         ?>
             <div class="alert alert-success alert-dismissible fade show" role="alert">
-                <strong><?php echo $_SESSION['status']; ?></strong>
+                <strong><?php echo $_SESSION['sent']; ?></strong>
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
         <?php
-            unset($_SESSION['status']);
+            unset($_SESSION['sent']);
+        }
+
+        if (isset($_SESSION['failed'])) {
+        ?>
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                <strong><?php echo $_SESSION['failed']; ?></strong>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        <?php
+            unset($_SESSION['failed']);
         }
         ?>
+
         <div class="row">
             <div class="col-sm">
-                <form action="send-email.php" method="POST" id="form">
+                <form action="submit.php" method="POST" id="form">
                     <div class="form-group">
                         <!-- Name input -->
                         <div class="mb-3">
@@ -65,20 +76,11 @@
 
                     <input type="hidden" name="subject" id="subject" value="New Inquiry From GSSI Website">
 
+                    <!-- G Recaptcha -->
+                    <div class="g-recaptcha mb-2" data-sitekey="your_sitekey"></div>
                     <!-- Form submit button -->
                     <div class="d-grid">
-                        <?php
-                        if (isset($_POST['submit'])) {
-                            $url = "https://www.google.com/recaptcha/api/siteverify";
-                            $secret = "site key here";
-                            $response = $_POST['token_generate'];
-                            $remoteip = $_SERVER['REMOTE_ADDR'];
-                            $request = file_get_contents($url . '?secret=' . $secret . '&response=' . $response);
-                            $result = json_decode($request);
-                        }
-                        ?>
-                        <input type="hidden" name="token_generate" id="token_generate">
-                        <button class="btn btn-primary btn-md g-recaptcha" name="submit" type="submit">Submit</button>
+                        <button class="btn btn-primary btn-md" name="submit" type="submit" value="submit">Submit</button>
                     </div>
                 </form>
             </div>
@@ -110,20 +112,10 @@
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <script src="js/bootstrap.js"></script>
-    <!-- Google ReCaptcha V3 -->
-    <script>
-        function onClick(e) {
-            e.preventDefault();
-            grecaptcha.ready(function() {
-                grecaptcha.execute('server side secret key here', {
-                    action: 'submit'
-                }).then(function(token) {
-                    var response = getElementById("token_generate");
-                    response.value = token;
-                });
-            });
-        }
-    </script>
+    <script src="main.js"></script>
+    <!-- Google ReCaptcha V2 -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 </body>
 
 </html>
