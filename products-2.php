@@ -58,16 +58,16 @@
             <!-- SOLAR PUMP -->
             <div class="col-6 col-md-4 text-center my-4">
                 <a href="products/solar-pump.php">
-                    <img src="products-folder/img/solar-pump.png" alt="img" class="mx-auto" style="max-height: 200px;">
+                    <img src="products/img/solar-pump.png" alt="img" class="mx-auto" style="max-height: 200px;">
                 </a>
-                <a href="products-folder/solar-pump.php" role="button" class="text-uppercase btn btn-link">solar pump</a>
+                <a href="products/solar-pump.php" role="button" class="text-uppercase btn btn-link">solar pump</a>
             </div>
             <!-- VERTICAL OIL SEPARATOR -->
             <div class="col-6 col-md-4 text-center my-4">
-                <a href="products-folder/vertical-oil-separator.php">
-                    <img src="products-folder/img/vertical-oil-separator.png" alt="img" class="mx-auto" style="max-height: 200px;">
+                <a href="products/vertical-oil-separator.php">
+                    <img src="products/img/vertical-oil-separator.png" alt="img" class="mx-auto" style="max-height: 200px;">
                 </a>
-                <a href="products-folder/vertical-oil-separator.php" role="button" class="text-uppercase btn btn-link">vertical
+                <a href="products/vertical-oil-separator.php" role="button" class="text-uppercase btn btn-link">vertical
                     oil separator</a>
             </div>
         </div>
