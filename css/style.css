@@ -4,7 +4,10 @@
   font-family: "Lato", sans-serif;
 }
 
-img, picture, svg, video {
+img,
+picture,
+svg,
+video {
   display: block;
   max-width: 100%;
 }
@@ -34,7 +37,7 @@ body {
   overflow: hidden;
   padding-bottom: 56.25%;
   position: relative;
-  height: 450px;
+  height: 100%;
 }
 
 .map-responsive iframe {
@@ -86,11 +89,13 @@ a.card {
   box-shadow: 0 12px 20px 1px rgba(64, 64, 64, 0.09) !important;
 }
 
-.ml-auto, .mx-auto {
+.ml-auto,
+.mx-auto {
   margin-left: auto !important;
 }
 
-.mr-auto, .mx-auto {
+.mr-auto,
+.mx-auto {
   margin-right: auto !important;
 }
 
@@ -102,11 +107,13 @@ a.card {
   background-color: #fff !important;
 }
 
-.ml-auto, .mx-auto {
+.ml-auto,
+.mx-auto {
   margin-left: auto !important;
 }
 
-.mr-auto, .mx-auto {
+.mr-auto,
+.mx-auto {
   margin-right: auto !important;
 }
 
@@ -126,13 +133,14 @@ a.card {
   font-weight: 900;
 }
 
-.pt-1, .py-1 {
+.pt-1,
+.py-1 {
   padding-top: 0.25rem !important;
 }
 
 .head-icon {
   margin-top: 18px;
-  color: #FF4500;
+  color: #ff4500;
 }
 
 .darker-image {
@@ -387,4 +395,4 @@ a.card {
     grid-column-start: 1;
     grid-column-end: 4;
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
