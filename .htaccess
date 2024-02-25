@@ -11,4 +11,6 @@ RewriteRule ^ /%1 [NC,L,R]
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^ %{REQUEST_URI}.php [NC,L]
 
-ErrorDocument 404 /GSSI-Website/error404.php 
+
+# If web page is not available, go here: 
+ErrorDocument 404 /error404.php 

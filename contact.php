@@ -67,6 +67,12 @@
                             <label class="form-label">Email Address</label>
                             <input class="form-control" name="email" id="email" type="email" placeholder="Email Address" required />
                         </div>
+
+                        <!-- Subject -->
+                        <div class="mb-3">
+                            <label class="form-label">Subject</label>
+                            <input class="form-control" name="subject" id="subject" type="text" placeholder="Subject" required />
+                        </div>
                     </div>
                     <div class="form-group mb-3">
                         <!-- Message input -->
@@ -74,10 +80,9 @@
                         <textarea class="form-control" name="message" type="text" placeholder="Message" style="height: 10rem;" required></textarea>
                     </div>
 
-                    <input type="hidden" name="subject" id="subject" value="New Inquiry From GSSI Website">
-
                     <!-- G Recaptcha -->
-                    <div class="g-recaptcha mb-2" data-sitekey="your_sitekey"></div>
+                    <div class="g-recaptcha mb-2" data-sitekey="your sitekey for google captcha"></div>
+
                     <!-- Form submit button -->
                     <div class="d-grid">
                         <button class="btn btn-primary btn-md" name="submit" type="submit" value="submit">Submit</button>
